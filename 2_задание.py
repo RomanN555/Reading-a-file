@@ -1,5 +1,6 @@
 def read_cookbook(file_name):
     cookbook = {}
+    
     with open(file_name, encoding= 'utf-8') as f:
             dish_name = f.readline().strip()
             ingredients_count = int(f.readline().strip())

@@ -1,5 +1,6 @@
 def read_cookbook(file_name):
     cookbook = {}
+    
     with open(file_name, encoding= 'utf-8') as f:
         for line in f:
             line = line.strip()
